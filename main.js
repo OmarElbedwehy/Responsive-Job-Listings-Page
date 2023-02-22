@@ -260,6 +260,6 @@ window.onscroll = ()=>{
 window.onload = ()=>{
     setTimeout(()=>{
         document.querySelector(".pre_loader").style.opacity = "0";
-        document.querySelector(".pre").remove();
+        document.querySelector(".pre_loader").remove();
     }, 1000)
 }
