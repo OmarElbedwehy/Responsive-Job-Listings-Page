@@ -203,7 +203,7 @@ main .job .langs .lang:hover{
 
 .scroll_to_top{
     position: fixed;
-    bottom: 10px;
+    bottom: 5px;
     right: 15px;
     background-color: #1d79ff;
     width: 50px;
@@ -215,6 +215,7 @@ main .job .langs .lang:hover{
     align-items: center;
     transition: 0.3s;
     transform: translateX(80px);
+    z-index: 100;
 }
 
 .scroll_to_top:hover{
@@ -222,7 +223,12 @@ main .job .langs .lang:hover{
 }
 
 footer{
-    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    border-radius: 1rem;
     height: 60px;
     background-color: #141313d6;
     display: flex;
@@ -230,7 +236,6 @@ footer{
     align-items: center;
     color: #fff;
     font-size: 20px;
-    border-top: 5px solid #fff;
 }
 
 footer a{
@@ -243,7 +248,7 @@ footer a{
 footer a::after{
     content: '';
     position: absolute;
-    bottom: -7px;
+    bottom: -10px;
     left: 0;
     width: 0%;
     height: 2px;
