@@ -254,3 +254,12 @@ window.onscroll = ()=>{
         })
     })
 }
+
+// PRE LOADER
+
+window.onload = ()=>{
+    setTimeout(()=>{
+        document.querySelector(".pre_loader").style.opacity = "0";
+        document.querySelector(".pre").remove();
+    }, 1000)
+}
