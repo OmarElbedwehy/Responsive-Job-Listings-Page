@@ -263,3 +263,10 @@ window.onload = ()=>{
         document.querySelector(".pre_loader").remove();
     }, 1000)
 }
+
+// FADE OUT FOOTER
+
+setTimeout(()=>{
+    document.querySelector("footer").style.opacity = "0.5";
+    document.querySelector("footer").style.transform = "translateX(-90vw)";
+}, 7000)
