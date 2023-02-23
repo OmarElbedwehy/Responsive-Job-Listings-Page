@@ -236,6 +236,7 @@ footer{
     align-items: center;
     color: #fff;
     font-size: 20px;
+    transition: 1s;
 }
 
 footer a{
